@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+
+    <style>
+        body {
+            height: 1234px;
+            padding: 0;
+
+        }
+
+        #container {
+            display: flex;
+            margin: 0;
+            padding: 0;
+        }
+
+        .leftside {
+            /* position: absolute; */
+            width: 237px;
+            height: auto;
+            margin: 0;
+            padding: 0;
+            left: 0px;
+            bottom: 0px;
+            top: 0;
+            background-color: #FAFBFD;
+        }
+
+        .leftside p {
+            font-family: Poppins;
+            font-size: 13px;
+            font-weight: 600;
+            line-height: 20px;
+            letter-spacing: 0em;
+            padding-left: 56px;
+            padding-top: 38px;
+            margin: 0;
+
+        }
+
+        .leftside a {
+            text-decoration: none;
+            color: #090F31;
+            float: left;
+        }
+
+        .leftside span {
+            color: #F7542E;
+        }
+
+        .leftside ul {
+            margin-top: 122px;
+            list-style-type: none;
+            padding-left: 56px;
+        }
+
+        .leftside button {
+            background-color: #FAFBFD;
+            padding-bottom: 30px;
+            border: none;
+
+        }
+
+        .leftside button a {
+            font-family: 'Noto Sans JP';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 20px;
+            color: #9E9E9E;
+
+        }
+
+        a:active {
+            color: black;
+        }
+
+        #content {
+            width: 1106px;
+        }
+
+        .onclick {
+            padding-left: 83px;
+            padding-top: 53px;
+        }
+
+        .onclick .heading {
+            font-family: Poppins;
+            font-size: 24px;
+            font-weight: 500;
+            line-height: 36px;
+            letter-spacing: 0em;
+            text-align: left;
+            color: #4F4F4F;
+        }
+
+        button {
+            height: 36px;
+            width: 81px;
+            font-size: 13px;
+            border-radius: 6px;
+        }
+
+        #Buttons p {
+            padding-bottom: 52px;
+        }
+
+        .default,
+        .default1 {
+            background: #E0E0E0;
+            box-shadow: 0px 2px 3px rgba(51, 51, 51, 0.2);
+            border: #E0E0E0;
+        }
+
+        .outline {
+            background-color: white;
+            border: 1px blue solid;
+
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        #Buttons li {
+            padding-bottom: 69px;
+        }
+
+        .text {
+            border: none;
+            background-color: white;
+            color: blue;
+            text-align: left;
+        }
+
+        .disabledshadow,
+        .small,
+        .localgrocery {
+            background: blue;
+            color: white;
+            border: blue;
+        }
+
+        .disabled {
+            background-color: #E0E0E0;
+            color: #9E9E9E;
+            border: none;
+        }
+
+        .localgrocery {
+            width: 105px;
+            color: white;
+        }
+
+        .small {
+            width: 73px;
+            height: 32px;
+        }
+
+        .default1 {
+            width: 81px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div id="container">
+        <div class="leftside">
+            <p><a href="#"><span>Dev</span>challenges.io</a></p>
+            <ul>
+                <li><button><a href="# colors">Colors</a></button></li>
+                <li><button><a href="#Typography">Typography</a></button></li>
+                <li><button><a href="#Spaces">Spaces</a></button></li>
+                <li> <button><a href="#Buttons">Buttons</a></button></li>
+                <li> <button><a href="#Inputs">Inputs</a></button></li>
+                <li> <button><a href="#Grid">Grid</a></button></li>
+
+                </li>
+            </ul>
+        </div>
+        <div id="content">
+            <div id="colors" class="onclick">
+                <p class="heading">Colors</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita sed obcaecati pariatur adipisci
+                    molestiae fuga, perferendis enim autem eligendi ad impedit inventore repellendus iure, accusantium
+                    ex
+                    et. Quis, nesciunt sint!</p>
+            </div>
+            <div id="Typography" class="onclick">
+                <p class="heading">Typography</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita sed obcaecati pariatur adipisci
+                    molestiae fuga, perferendis enim autem eligendi ad impedit inventore repellendus iure, accusantium
+                    ex
+                    et. Quis, nesciunt sint!</p>
+            </div>
+            <div id="Spaces" class="onclick">
+                <p class="heading">Spaces</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita sed obcaecati pariatur adipisci
+                    molestiae fuga, perferendis enim autem eligendi ad impedit inventore repellendus iure, accusantium
+                    ex
+                    et. Quis, nesciunt sint!</p>
+            </div>
+
+            <div id="Buttons" class="onclick">
+                <p class="heading">Buttons</p>
+                <div class="buttonleft">
+                    <ul>
+                        <li><button class="default">Default</button></li>
+                        <li>
+                            <button class="outline">Default</button>
+                        </li>
+                        <li>
+                            <button class="text">Default</button>
+                        </li>
+                        <li>
+                            <button class="disabledshadow">Default</button>
+                        </li>
+                        <li>
+                            <button class="disabled">
+                                disabled
+                            </button>
+                        </li>
+                        <li>
+                            <button class="localgrocery">
+                                <i class="fa-solid fa-cart-plus"></i> &nbsp; default
+                            </button>
+                        </li>
+                        <li><button class="small">default</button></li>
+                        <li><button class="default1">Default</button></li>
+                    </ul>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
